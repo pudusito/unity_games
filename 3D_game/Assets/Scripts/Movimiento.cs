@@ -163,7 +163,7 @@ public class Movimiento : MonoBehaviour
         if(cubito.gameObject.CompareTag("Cosas"))
         {
             cubito.gameObject.SetActive(false);
-/*             Debug.Log("Recogidos: " + ++contador); */
+            Debug.Log("Recogidos: " + ++contador);
             textoContador.text= "Llevas: " +contador.ToString();
         }
     }
